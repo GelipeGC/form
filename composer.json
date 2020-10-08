@@ -1,0 +1,29 @@
+{
+    "name": "fguzman/form",
+    "description": "Advanced form generation for laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.2.5",
+        "laravel/framework": "7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "orchestra/testbench": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fguzman\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Felipe Guzman",
+        "email": "felipe-guzman.c@hotmail.com"
+    }],
+    "minimum-stability": "stable"
+}

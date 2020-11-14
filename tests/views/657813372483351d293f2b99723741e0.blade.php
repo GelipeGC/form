@@ -1,0 +1,1 @@
+<x-form :method="$method"></x-form>

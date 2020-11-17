@@ -1,0 +1,1 @@
+<x-field name="email" type="email"/>

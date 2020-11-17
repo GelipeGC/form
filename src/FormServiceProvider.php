@@ -8,6 +8,8 @@ class FormServiceProvider extends ServiceProvider
 {
     public function boot()
     {
+        $this->mergeConfigFrom(__DIR__.'/../config/form.php', 'form');
+        
         $this->loadViewsFrom(__DIR__.'/../resources/views/', 'fguzman-form');
 
         Blade::component('Fguzman\Form', 'form');

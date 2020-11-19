@@ -16,7 +16,5 @@ class FormServiceProvider extends ServiceProvider
         $this->loadJsonTranslationsFrom(__DIR__.'/../resources/lang');
         Blade::component('Fguzman\Form', 'form');
         Blade::component('Fguzman\Field', 'field');
-
     }
-    
 }

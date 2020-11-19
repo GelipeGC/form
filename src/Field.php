@@ -1,8 +1,8 @@
 <?php
 namespace Fguzman;
 
-use Illuminate\View\Component;
 use Illuminate\Config\Repository;
+use Illuminate\View\Component;
 
 class Field extends Component
 {
@@ -37,5 +37,4 @@ class Field extends Component
     {
         return view('fguzman-form::field');
     }
-
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fedc55774d3d044a9d41a69162613d64",
+    "content-hash": "74d46942e31b675bab1d42200f89b221",
     "packages": [
         {
             "name": "brick/math",
@@ -3794,16 +3794,16 @@
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.10.1",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "f2713a5016faaf6ffc60e9d456dedb5ebf0efcae"
+                "reference": "f228dc5112bafc14c77d40a2acc0c48058e184b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/f2713a5016faaf6ffc60e9d456dedb5ebf0efcae",
-                "reference": "f2713a5016faaf6ffc60e9d456dedb5ebf0efcae",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/f228dc5112bafc14c77d40a2acc0c48058e184b0",
+                "reference": "f228dc5112bafc14c77d40a2acc0c48058e184b0",
                 "shasum": ""
             },
             "require": {
@@ -3813,6 +3813,7 @@
                 "fzaninotto/faker": "*"
             },
             "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4.1",
                 "ext-intl": "*",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.4.2"
             },
@@ -3837,7 +3838,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2020-10-28T09:32:46+00:00"
+            "time": "2020-11-15T20:27:00+00:00"
         },
         {
             "name": "gajus/dindent",
@@ -4115,16 +4116,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v5.9.0",
+            "version": "v5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "7c324b17d6a6e1d8e1a83f8fbafa55a1004b3d74"
+                "reference": "28cce19a0228e50b9fd7309e080d4e698641479f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/7c324b17d6a6e1d8e1a83f8fbafa55a1004b3d74",
-                "reference": "7c324b17d6a6e1d8e1a83f8fbafa55a1004b3d74",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/28cce19a0228e50b9fd7309e080d4e698641479f",
+                "reference": "28cce19a0228e50b9fd7309e080d4e698641479f",
                 "shasum": ""
             },
             "require": {
@@ -4191,7 +4192,7 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2020-11-07T04:27:40+00:00"
+            "time": "2020-11-17T02:33:49+00:00"
         },
         {
             "name": "phar-io/manifest",

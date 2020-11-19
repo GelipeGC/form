@@ -1,6 +1,6 @@
 <?php
 
-$finder = \PhpCsFixer\Fixer::create()
+$finder = \PhpCsFixer\Finder::create()
     ->in(__DIR__.'/src')
     ->in(__DIR__.'/tests')
     ->exclude(__DIR__.'/tests/views');

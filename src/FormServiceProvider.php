@@ -12,6 +12,8 @@ class FormServiceProvider extends ServiceProvider
         
         $this->loadViewsFrom(__DIR__.'/../resources/views/', 'fguzman-form');
 
+        //$this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'form');
+        $this->loadJsonTranslationsFrom(__DIR__.'/../resources/lang');
         Blade::component('Fguzman\Form', 'form');
         Blade::component('Fguzman\Field', 'field');
 

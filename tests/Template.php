@@ -46,6 +46,12 @@ class Template
 
         return $this;
     }
+    public function assertContain($expectedHtml)
+    {
+        PHPUnit::assertStringContainsString($expectedHtml, $this->render());
+
+        return $this;
+    }
     
     public function assertRender($expectedHtml)
     {

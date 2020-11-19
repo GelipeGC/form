@@ -26,5 +26,10 @@
         "name": "Felipe Guzman",
         "email": "felipe-guzman.c@hotmail.com"
     }],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": ["Fguzman\\FormServiceProvider"]
+        }
+    }
 }

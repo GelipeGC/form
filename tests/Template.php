@@ -74,6 +74,6 @@ class Template
     }
     private function indentHtml(string $html)
     {
-       return $this->indenter->indent($html);
+        return $this->indenter->indent($html);
     }
 }

@@ -6,6 +6,8 @@ class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
+        parent::getPackageProviders($app);
+        
         return [
             'Fguzman\FormServiceProvider'
         ];

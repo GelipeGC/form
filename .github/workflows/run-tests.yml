@@ -12,7 +12,7 @@ jobs:
       fail-fast: true
       matrix:
         os: [ubuntu-latest, windows-latest]
-        php: [7.3, 7.4]
+        php: [7.2, 7.3, 7.4]
     runs-on: ${{ matrix.os }}
     name: Test
     steps:

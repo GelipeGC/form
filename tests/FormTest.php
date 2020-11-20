@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\File;
 
 class FormTest extends TestCase
 {
-    
+
     /** @test */
     function renders_a_form_with_get_method()
     {
@@ -18,6 +18,12 @@ class FormTest extends TestCase
     {
         $this->makeTemplate('<x-form method="post"></x-form>')
                 ->assertRender(sprintf('<form method="post">%s</form>', $this->csrfField()));
+    }
+    /** @test */
+    function renders_a_form_with_fields()
+    {
+        $this->makeTemplate('<x-form method="get"><input></x-form>')
+            ->assertRender('<form method="get"><input></form>');
     }
     protected function csrfField()
     {
@@ -50,3 +56,4 @@ class FormTest extends TestCase
         ];
     }
 }
+

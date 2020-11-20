@@ -1,6 +1,6 @@
 {
     "name": "fguzman/form",
-    "description": "Advanced form generation for laravel",
+    "description": "Advanced form generation for laravel by course styde",
     "type": "library",
     "require": {
         "php": "^7.2.5",
